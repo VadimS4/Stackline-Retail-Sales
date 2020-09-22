@@ -1,5 +1,6 @@
 const data = require('../Webdev_data2.json');
 
+//app Reducer, to store and handle state manipulation.
 const appReducer = (state = data, action) => {
     console.log("reducer state:", state)
     console.log("reducer action:", action)

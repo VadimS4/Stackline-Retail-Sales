@@ -5,6 +5,8 @@ import '../styles/Graph.css';
 
 class Graph extends React.Component {
     render() {
+
+        // Map through the sales data in order to create the table.
         const tableData = this.props.data.sales ? (
             this.props.data.sales.map(sale => {
                 return (
