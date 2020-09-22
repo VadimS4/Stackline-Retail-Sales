@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 100%;
+  height: 100vh;
+}
+
+.side-panel-main {
+  background-color: white;
+  margin-right: 1em;
+  width: 20%;
+}
+
+.analytics {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  padding-right: 2%;
+}

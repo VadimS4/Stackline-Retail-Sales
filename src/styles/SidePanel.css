@@ -1,0 +1,79 @@
+.side-panel {
+    text-align: center;
+}
+
+.sidePanel-photo {
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sidePanel-img {
+    width: 65%;
+    max-width: 80%;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.divider {
+    margin-bottom: 1em;
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.subtitle {
+    margin: auto;
+    width: 70%;
+    font-size: 12px;
+    color: #989898;
+    margin-bottom: 2em;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+.tag-button {
+    background-color: white;
+    margin-bottom: 0.75em;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: grey;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    padding-top: 1em;
+    margin-left: 2em;
+    color: #989898;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.menu-item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.menu-span {
+    margin-left: 1em;
+    font-weight: bold;
+}
